@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba562406-6b7d-4956-befa-26fa52c01775" name="Changes" comment="" />
+    <list default="true" id="ba562406-6b7d-4956-befa-26fa52c01775" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catOpdracht.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalType/Acinonyx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalType/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalType/Panthera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/CatApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/AndreanMountainCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/Felis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/NorwegianForestCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/PersianCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/SiameseCat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/felisType/TurkishVanCat.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M0BPD7AjAOpthLEmi1P9nNe4cP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +49,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.splitter.proportion": "0.25025854"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CatApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.CatApp" />
+      <module name="catOpdracht" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CatApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +84,14 @@
       <updated>1676894594506</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/catOpdracht$CatApp.ic" NAME="CatApp Coverage Results" MODIFIED="1676911266199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>application.*</FILTER>
+    </SUITE>
   </component>
 </project>
