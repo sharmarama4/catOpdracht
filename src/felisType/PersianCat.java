@@ -1,8 +1,9 @@
 package felisType;
 
 public class PersianCat extends Felis {
-    public PersianCat(int shlterNo,int badgeNo) {
-        super(shlterNo,badgeNo);
+
+    public PersianCat(int shelterNo, int badgeNo) {
+        super(shelterNo, badgeNo);
     }
 
     public PersianCat(char size, String color, char coat, double weight, String name, int age, int shelterNo, int badgeNo) {

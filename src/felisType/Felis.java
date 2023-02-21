@@ -11,19 +11,31 @@ public abstract class Felis extends Animal {
     private int shelterNo;
     private int badgeNo;
 
+//if the shelter no and badge no are not bigger than 999 and smaller than -999
     public Felis(char size, String color, char coat, double weight, String name, int age, int shelterNo, int badgeNo) {
         super(size, color, coat, weight);
         this.name = name;
         this.age = age;
-        this.shelterNo = shelterNo;
-        this.badgeNo = badgeNo;
+        if (badgeNo > 999|| badgeNo<-999) {
+            this.badgeNo = 999;
+        }else {
+            this.badgeNo=Math.abs(badgeNo);
+        }
+        if(shelterNo > 999 || shelterNo<-999) {
+            this.shelterNo = 999;
+        }else{
+            this.shelterNo=Math.abs(shelterNo);
+        }
+
     }
 
     public Felis(int shelterNo, int badgeNo) {
         this.shelterNo = shelterNo;
         this.badgeNo = badgeNo;
     }
-   /* Maak een vorm van controle bij de setters voor shelterNo en BadgeNo. Zorg ervoor dat de getallen
+
+
+/* Maak een vorm van controle bij de setters voor shelterNo en BadgeNo. Zorg ervoor dat de getallen
     niet groter dan 999 zijn, en dat ze niet negatief zijn!*/
 
     public int getBadgeNo() {
